@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ivory;
+}
+
+header {
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    font-family: Arial;
+
+}
+
+.título {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+
+.container-logo {
+    display:flex;
+    align-items:center;
+}
+
+.logo-texto {
+    margin: 20px;
+    font-size: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 15px;
+    text-decoration: none;
+  
+}
+
+.img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
+#RG{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#texto-lola {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+#foto-lola{
+    text-align: center;
+}
+
+#footer {
+    background-color: grey;
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+
+}
